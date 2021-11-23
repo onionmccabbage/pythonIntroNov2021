@@ -1,5 +1,5 @@
 # a tuple (since we will not need to change this)
-cat_t = ('users', 'posts', 'albums', 'photos')
+cat_t = ('users', 'posts', 'albums', 'photos', 'todos')
 
 # a simple version of the cleanup
 def cleanup1(category='users', id=0):

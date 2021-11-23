@@ -15,22 +15,22 @@ Monday
 > validate input before casting it!!!!!
 > is there a difference .isnumeric. isdigit and .isdecimal  see https://datagy.io/python-isdigit/
 > indentation
-- immutable strings
+> immutable strings
 > square bracket notation for iterable collections
 - memory efficiency
-- identifiers
+> identifiers
 > boolean True and False
-- type and type conversion, also isinstance() and isnumeric()
-- string manipulation
+> type and type conversion, also isinstance() and isnumeric()
+> string manipulation
 > Python indent syntax
 > Lists, Tuples and nesting collections
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
-- import, pip, libraries and modules
+> import, pip, libraries and modules
 > very big numeric values
 > looping with for
-- range, generators and comprehensions
-- set comprehension, list compresension, dictionary comprehension
+> range, generators and comprehensions
+> set comprehension, list compresension, dictionary comprehension
 
 Tuesday
 > quick review of where we got to
@@ -38,56 +38,56 @@ Tuesday
 > other kinds of Python
 > functions, *args, **kwargs
 > custom generator and yield
-- to add libraries to python:
-  - python -m ensurepip
-  - python –m pip install requests
+> to add libraries to python:
+  > python -m ensurepip
+  > python –m pip install requests
     (or any other library you need)
-- globals
-- requests (if time)
+> globals
+> requests (if time)
 - overview of testing
-- strings with triple quotes
-- docstring
-- architecture: modules __init__.py and __name__ == '__main__'
-- review exercise
+> strings with triple quotes
+> docstring
+> architecture: modules __init__.py and __name__ == '__main__'
+> exception handling
+> review exercise
+> import path....
 - File input and output
-  q - explore the 'character' data-type
-  - read and write binary files
-- exception handling
-- after lunch review exercise
+  q - explore what is a single 'character'
+  - read and write binary files (bytes)
 
 Wednesday
 - brief review so far
+- complete our look at file i/o - especially reading lines and 'with'
+  also - read lines into a list or append to a string?
 - functions live in classes, which live in modules which live in packages
 - moving from Py2 to Py3
   https://docs.python.org/3/howto/pyporting.html
 - PEP8 style guide
-- global and local scope 
-- string formatting syntax
+> global and local scope 
+> string formatting syntax
 - data modeling structures
 - Objects and Classes (OOP)
-  - q what is the baseclass????
-  - q we cannot make a truly immutable property of the classs (only access via methods)
-    we should use @property to prevent direct access, but we can ALWAYS add arbitrary properies and methods to a class
-- properties, methods, __str__
 - get/set as property decorators
 - name mangling
-- inheritance
+  - q we cannot make a truly immutable property of the classs (only access via methods)
+    we should use getter/setter to prevent direct access, 
+    but we can ALWAYS add arbitrary properies and methods to a class
+- properties, methods, __str__
 - intrinsic attributes: __doc__ etc.
 - documentation strings (docstring) for classes
 - special operators and overriding
+- inheritance
+  - q what is the baseclass (e.g. Exception Base)
 - review exercise
 - debug tools
 - virtual environments
   https://www.python.org/dev/peps/pep-0405/
 - where to go from here:
   https://pynative.com/python-exercises-with-solutions/
-  the next courses: advanced python then beyond advanced python
+  the next courses: advanced python then further advanced python
 - end of course feedback 
 - all my examples available for download here:
-  https://github.com/onionmccabbage/pythonSept2021
-
-https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__idsCNtUMlVMN0gwNzdFM1Y2V0ZCSlI2RFdVQldDMC4u
-
+  https://github.com/onionmccabbage/pythonIntroNov2021
 
 Links
 - Python official site https://python.org

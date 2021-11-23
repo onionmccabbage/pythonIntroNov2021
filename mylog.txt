@@ -1,0 +1,21 @@
+Long strings of text can be written as chunks typically with a while loop that closes automatically
+lots of short bits of text can be written
+bibblybooblyboo
+...................
+thats all folks!!
+lots of short bits of text can be written
+bibblybooblyboo
+...................
+thats all folks!!
+lots of short bits of text can be written
+bibblybooblyboo
+...................
+thats all folks!!
+lots of short bits of text can be written
+bibblybooblyboo
+...................
+thats all folks!!
+lots of short bits of text can be written
+bibblybooblyboo
+...................
+thats all folks!!
