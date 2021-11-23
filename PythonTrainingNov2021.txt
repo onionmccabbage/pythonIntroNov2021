@@ -33,15 +33,17 @@ Monday
 - set comprehension, list compresension, dictionary comprehension
 
 Tuesday
-- quick review of where we got to
-- by reference or by value
-- other kinds of Python
+> quick review of where we got to
+> by reference or by value
+> other kinds of Python
 > functions, *args, **kwargs
-- custom generator and yield
+> custom generator and yield
 - to add libraries to python:
   - python -m ensurepip
   - python –m pip install requests
     (or any other library you need)
+- globals
+- requests (if time)
 - overview of testing
 - strings with triple quotes
 - docstring
@@ -63,6 +65,7 @@ Wednesday
 - string formatting syntax
 - data modeling structures
 - Objects and Classes (OOP)
+  - q what is the baseclass????
   - q we cannot make a truly immutable property of the classs (only access via methods)
     we should use @property to prevent direct access, but we can ALWAYS add arbitrary properies and methods to a class
 - properties, methods, __str__
