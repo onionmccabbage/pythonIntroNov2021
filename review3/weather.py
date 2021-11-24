@@ -1,6 +1,8 @@
 from random import randint
 from countries import countries
 
+# all these solutions are in the repo
+
 class Weather():
     '''
     The Weather class takes a non-empty string for the description
