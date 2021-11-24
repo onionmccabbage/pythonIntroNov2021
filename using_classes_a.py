@@ -34,3 +34,4 @@ if __name__ == '__main__':
     print(Ada.age) # we have created a NEW arbitrary property, tis is NOT the internal __age
     # print(Ada.name, Ada.age, Ada.email)
     print(Ada)
+    print(Ada.__doc__) # print the docstring

@@ -1,5 +1,5 @@
 Python Review Exercise 3
-========================
+======================== until 3:00 which is 1hr15mins
 We need a 'Weather' class
 Decide on properties and methods you think it should encapsulate, then build it
 Consider if there should be any read-only properties

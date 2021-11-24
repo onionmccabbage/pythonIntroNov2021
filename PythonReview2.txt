@@ -1,7 +1,9 @@
 Python Review 2 
-===============
+=============== one hour (until about 2:55)
 Ask the user for a category and an id
 Use these to make a call to an API and show the results
+
+---- Tea Break until 3:10 --------
 
 This is a chance to explore Python 
 - Alter these instructions to suit your thinking

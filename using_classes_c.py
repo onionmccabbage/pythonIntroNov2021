@@ -3,7 +3,7 @@
 
 class Album(object): # no need to write object, it is the default!!
     def __init__(self, id, title, content):
-        self.id      = id # call the setter method
+        self.__id      = id # call the setter method
         self.__title   = title
         self.__content = content
     # here we use 'decorator' syntax for our getter and setter methods
@@ -36,6 +36,7 @@ class Album(object): # no need to write object, it is the default!!
             raise Exception # we could define our own Exception 
     def __str__(self): # override the print method
         return '{} {} {}'.format(self.id, self.title, self.content)
+
 
 if __name__ == '__main__':
     a = Album(1, 'Lunches I have known', 'Cucumber Sandwiches with Juice')

@@ -17,7 +17,7 @@ Monday
 > indentation
 > immutable strings
 > square bracket notation for iterable collections
-- memory efficiency
+> memory efficiency
 > identifiers
 > boolean True and False
 > type and type conversion, also isinstance() and isnumeric()
@@ -44,43 +44,43 @@ Tuesday
     (or any other library you need)
 > globals
 > requests (if time)
-- overview of testing
+> overview of testing
 > strings with triple quotes
 > docstring
 > architecture: modules __init__.py and __name__ == '__main__'
 > exception handling
 > review exercise
 > import path....
-- File input and output
-  q - explore what is a single 'character'
-  - read and write binary files (bytes)
+> File input and output
+  q > explore what is a single 'character'
+  > read and write binary files (bytes)
 
 Wednesday
-- brief review so far
-- complete our look at file i/o - especially reading lines and 'with'
-  also - read lines into a list or append to a string?
-- functions live in classes, which live in modules which live in packages
-- moving from Py2 to Py3
+> brief review so far
+> complete our look at file i/o - especially reading lines and 'with'
+  q - read lines into a list or append to a string?
+> functions live in classes, which live in modules which live in packages
+> moving from Py2 to Py3
   https://docs.python.org/3/howto/pyporting.html
-- PEP8 style guide
+> PEP8 style guide
 > global and local scope 
 > string formatting syntax
-- data modeling structures
-- Objects and Classes (OOP)
-- get/set as property decorators
-- name mangling
-  - q we cannot make a truly immutable property of the classs (only access via methods)
+> data modeling structures
+> Objects and Classes (OOP)
+> get/set as property decorators
+> name mangling
+  > we cannot make a truly immutable property of the classs (only access via methods)
     we should use getter/setter to prevent direct access, 
     but we can ALWAYS add arbitrary properies and methods to a class
-- properties, methods, __str__
-- intrinsic attributes: __doc__ etc.
-- documentation strings (docstring) for classes
+> properties, methods, __str__
+> intrinsic attributes: __doc__ etc.
+> documentation strings (docstring) for classes
 - special operators and overriding
-- inheritance
+> inheritance
   - q what is the baseclass (e.g. Exception Base)
-- review exercise
-- debug tools
-- virtual environments
+> review exercise
+> debug tools
+> virtual environments
   https://www.python.org/dev/peps/pep-0405/
 - where to go from here:
   https://pynative.com/python-exercises-with-solutions/
