@@ -41,10 +41,12 @@ def fileWriter(str='default'):
         print('all done')
 
 def fileReader():
-    fin = open('mylog.txt', 'rt')
-    retrieved = fin.readline() + '-----' + fin.readline() # read TWO lines
-    print(retrieved)
-    fin.close() # always check your file access object will be closed!
+    with open('mylog.txt', 'rt') as fin: # the 'with' operator will auto-close the file access object
+        # fin = open('mylog.txt', 'rt')
+        # iterate over the input until we run out of lines!
+        retrieved = fin.readlines() # + '-----' + fin.readline() # read TWO lines
+        print(retrieved)
+    # fin.close() # no need to close, since the 'with' operator will close for us
 
 if __name__ == '__main__':
     simpleOutput()
